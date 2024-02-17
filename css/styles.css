@@ -90,9 +90,38 @@ button:focus {
     cursor: pointer
 }
 
+.third-round {
+    line-height: 1.11;
+    text-align: center;
+}
+
 h3 {
+    line-height: 1.2;
+    letter-spacing: 0.02em;
     font-weight: 500;
     font-size: 20px;
+    color: #2e2f42;
+}
+
+.team-nav {
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
+
+.team-nav p {
+    font-size: 16px;
+}
+
+.fourth-round {
+    line-height: 1.11;
+    text-align: center;
+}
+
+.portfolio-nav {
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .foot {
