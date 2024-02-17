@@ -19,17 +19,23 @@ body {
     text-decoration: none;
 }
 
-li.link {color: #2e2f42}
+.dark-logo {
+    color: #2e2f42;
+}
 
 ul {
     list-style: none;
     text-decoration: none;
 }
 
-.link {
+.list-nav {
     font-weight: 500;
     color: #2e2f42;
     text-decoration: none;
+}
+
+.link {
+    color: #2e2f42;
 }
 
 .link:hover,
@@ -37,13 +43,29 @@ ul {
     color: #404BBF;
 }
 
+address {
+    font-style: normal;
+}
+
 .link-address {
-    color:#434455;
-    text-decoration: none;
+    color: #434455;
+}
+
+.link-address:hover,
+.link-address:focus {
+    color: #404bbf;
 }
 
 a {
     text-decoration: none;
+}
+
+.team-description {
+    font-size: 16px;
+}
+
+.team-list {
+background-color: #FFFFFF;
 }
 
 .main-one {
