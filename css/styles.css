@@ -13,11 +13,13 @@ body {
     font-size: 18px;
     font-weight: 700;
     color: #4d5ae5;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
 }
+
+li.link {color: #2e2f42}
 
 ul {
     list-style: none;
@@ -30,6 +32,11 @@ ul {
     text-decoration: none;
 }
 
+.link:hover,
+.link:focus {
+    color: #404BBF;
+}
+
 .link-address {
     color:#434455;
     text-decoration: none;
@@ -39,11 +46,12 @@ a {
     text-decoration: none;
 }
 
-.section1 {
+.main-one {
     background-color: #2e2f42;
+    text-align: center
 }
 
-.section3 {
+.main-three {
     background-color: #f4f4fd;
 }
 
@@ -54,7 +62,7 @@ footer {
 h1 {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     color: #fff;
 }
@@ -62,10 +70,18 @@ h1 {
 h2 {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+}
+
+button {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    background-color: #4D5AE5;
 }
 
 button:hover,
